@@ -51,7 +51,7 @@ describe("LogController Decorator", () => {
   });
 
   test("Should return the same result of the controller", async () => {
-    const { sut, controllerStub } = makeSut();
+    const { sut } = makeSut();
     const httpRequest = {
       body: {
         email: "any_mail@mail.com",
