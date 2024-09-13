@@ -1,4 +1,4 @@
-import { InvalidParamError } from "../../errors";
+import { InvalidParamError, MissingParamError } from "../../errors";
 import { badRequest, serverError, ok } from "../../helpers/http-helper";
 import {
   AddAccount,
